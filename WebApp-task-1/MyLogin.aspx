@@ -13,6 +13,21 @@
             <asp:Label ID="lblInfo" runat="server" EnableViewState="false"></asp:Label>
             <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click"/>
         </div>
+        <div>
+            <asp:Panel ID="MainPanel" runat="server" Height="112px">
+                <p>
+                    <asp:Button ID="Button2" runat="server" Text="Button2" />
+                    <asp:Button ID="Button3" runat="server" Text="Button3" />
+                    <asp:Button ID="Button4" runat="server" Text="Button4" />
+                </p>
+                <p>
+                    <asp:Label ID="Label1" runat="server" Width="48px">Name:</asp:Label>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                </p>
+            </asp:Panel>
+            <p>
+                <asp:Button ID="Button5" runat="server" Text="Button4" /></p>
+        </div>
     </form>
 </body>
 </html>
