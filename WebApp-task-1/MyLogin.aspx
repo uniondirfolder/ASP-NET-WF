@@ -28,6 +28,11 @@
             <p>
                 <asp:Button ID="Button5" runat="server" Text="Button4" /></p>
         </div>
+        <div>
+            <input name="TextBox2" type="text" id="TextBox2" 
+                style="font-size:20px;color:red;background-color:lightyellow;" 
+                 value="<Вставьте ваш e-mail>" onfocus="alert(TextBox2.value);" />
+        </div>
     </form>
 </body>
 </html>
