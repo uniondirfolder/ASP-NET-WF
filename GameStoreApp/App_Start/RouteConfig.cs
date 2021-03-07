@@ -17,6 +17,8 @@ namespace GameStoreApp.App_Start
 
             // Обратите внимание что это именованный маршрут
             routes.MapPageRoute("cart", "cart", "~/Pages/CartView.aspx");
+
+            routes.MapPageRoute("checkout", "checkout", "~/Pages/Checkout.aspx");
         }
 
     }

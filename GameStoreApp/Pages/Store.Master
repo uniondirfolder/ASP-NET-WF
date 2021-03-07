@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Store.Master.cs" Inherits="GameStoreApp.Store" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Store.Master.cs" Inherits="GameStoreApp.Pages.Store" %>
 
 <%--<%@ Register TagPrefix="GS" TagName="CategoryLinks" Src="~/Controls/CategoryList.ascx" %>
 <%@ Register TagPrefix="GS" TagName="CartSummary" Src="~/Controls/CartSummary.ascx" %>--%>
