@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DZ-3", "DZ-3", "{6DB0BA44-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestRoom", "QuestRoom\QuestRoom.csproj", "{ACEEE82E-0750-4CDA-B152-53C76B2600E1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registration", "Registration", "{A038437C-5B32-4FE1-8A08-38F8F0077E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrationWeb", "RegistrationWeb\RegistrationWeb.csproj", "{CCAF85BF-53A8-4E89-838A-774591128656}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{ACEEE82E-0750-4CDA-B152-53C76B2600E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACEEE82E-0750-4CDA-B152-53C76B2600E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACEEE82E-0750-4CDA-B152-53C76B2600E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCAF85BF-53A8-4E89-838A-774591128656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAF85BF-53A8-4E89-838A-774591128656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAF85BF-53A8-4E89-838A-774591128656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAF85BF-53A8-4E89-838A-774591128656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{3CCDA8DA-5184-40E5-957C-4CAD7390FA59} = {1900AAC3-2E74-401F-9C66-2C214AECDB43}
 		{6DB0BA44-1450-414A-8AE1-59B49015A233} = {3BB79FFC-143C-4D24-9866-7DFC5088DD28}
 		{ACEEE82E-0750-4CDA-B152-53C76B2600E1} = {6DB0BA44-1450-414A-8AE1-59B49015A233}
+		{CCAF85BF-53A8-4E89-838A-774591128656} = {A038437C-5B32-4FE1-8A08-38F8F0077E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0A5D89F-A73B-4C05-A0F4-D5EA1B3755BC}
