@@ -15,7 +15,7 @@ namespace GameStoreApp.Controls
    
     public class VInput : WebControl
     {
-        private string nspace = "GameStore.Models";
+        private string nspace = "GameStoreApp.Models";
         private string model = "Order";
 
         public string Namespace

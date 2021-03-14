@@ -18,25 +18,31 @@
             <h3>Замовник</h3>
             <div>
                 <label for="name">І'мя:</label>
-                <input id="name" name="name" data-val="true" data-val-required="Введіть ім'я" />
+                <%--<input id="name" name="name" data-val="true" data-val-required="Введіть ім'я" />--%>
+                <SX:VInput Property="Name" runat="server" />
             </div>
 
             <h3>Адреса доставки</h3>
             <div>
                 <label for="line1">Адреса 1:</label>
-                <input id="line1" name="line1" />
+                <%--<input id="line1" name="line1" />--%>
+                <SX:VInput Property="Line1" runat="server" />
             </div>
             <div>
                 <label for="line2">Адреса 2:</label>
-                <input id="line2" name="line2" />
+                <%--<input id="line2" name="line2" />--%>
+                <SX:VInput Property="Line2" runat="server" />
             </div>
             <div>
                 <label for="line3">Адреса 3:</label>
-                <input id="line3" name="line3" />
+                <%--<input id="line3" name="line3" />--%>
+                <SX:VInput Property="Line3" runat="server" />
             </div>
+            <br />
             <div>
                 <label for="city">Місто:</label>
-                <input id="city" name="city" />
+                <%--<input id="city" name="city" />--%>
+                <SX:VInput Property="City" runat="server" />
             </div>
 
             <h3>Деталі замовлення</h3>
