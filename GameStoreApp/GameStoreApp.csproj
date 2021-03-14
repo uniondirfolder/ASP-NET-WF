@@ -106,6 +106,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controls\CartSummary.ascx.cs">
       <DependentUpon>CartSummary.ascx</DependentUpon>
